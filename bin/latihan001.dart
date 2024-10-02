@@ -46,4 +46,16 @@ void main() {
 
   print(array1);
   print(array2);
+
+  // kata kunci late
+  // variable dideklarasikan nanti saja, ketika memang variable tersebut diakses, jika tidak diakses, tidak perlu dideklarasikan
+  // ketika dicoba kalo function string getvalue nya diletakkan di dibawah dari late var, tidak mau
+  String getValue() {
+    print('get value dipanggil');
+    return 'kharis raihan 22031013';
+  }
+
+  late var value = getValue();
+  print('Display value');
+  print(value);
 }
