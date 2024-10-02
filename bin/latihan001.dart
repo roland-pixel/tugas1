@@ -26,4 +26,12 @@ void main() {
   print(nama);
   print(nama);
   print(nama);
+
+  // kata kunci final
+  var namadepan = "Kharis";
+  final namabelakang = "Raihan";
+
+  namadepan = "budi";
+  // namabelakang = "setiawan"; // tidak bisa dideklarasikan ulang
+  print(namadepan + " " + namabelakang);
 }
