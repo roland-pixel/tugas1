@@ -14,7 +14,14 @@ void main() {
   // print(nama);
 
   // deklarasi variabel langsung
-  String nama = "Kharis Raihan123";
+  // String nama = "Kharis Raihan123";
+  // print(nama);
+  // print(nama);
+  // print(nama);
+  // print(nama);
+
+  // kata kunci var
+  var nama = "kharis Raihan";
   print(nama);
   print(nama);
   print(nama);
