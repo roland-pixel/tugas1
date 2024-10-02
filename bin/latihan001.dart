@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 void main() {
   // kode tanpa variabel
   print("Kharis Raihan");
@@ -34,4 +36,14 @@ void main() {
   namadepan = "budi";
   // namabelakang = "setiawan"; // tidak bisa dideklarasikan ulang
   print(namadepan + " " + namabelakang);
+
+  // kata kunci const
+  // tidak bisa dideklarasikan ulang, tapi nilai dari variabel sendiri bisa diubah contoh:
+  final array1 = [1, 2, 3];
+  const array2 = [1, 2, 3];
+  array1[2] = 10;
+  // array2[0] = 20;
+
+  print(array1);
+  print(array2);
 }
