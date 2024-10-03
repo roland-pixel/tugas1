@@ -24,4 +24,12 @@ void main() {
   print('double to int = $intdaridouble');
   print('int to string = $stringdariint');
   print('double to string = $stringdaridouble');
+
+  // konversi booleam dan string
+  // Untuk melakukan konversi tipe data Boolean ke String, kita bisa gunakan method toString()
+  // Sedangkan untuk melakukan konversi tipe data String ke Boolean, tidak ada caranya, oleh karena itu untuk melakukan hal ini, biasanya menggunakan operator perbandingan
+  var inputString = 'true';
+  var inputbool = inputString == 'true';
+  var stringfromBool = inputbool.toString();
+  print(stringfromBool);
 }
