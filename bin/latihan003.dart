@@ -8,4 +8,11 @@ void main() {
   double number2 = 10.5;
   print(number1);
   print(number2);
+
+  // num
+  // Jika kita ingin menggunakan tipe data number yang bisa int ataupun double, kita bisa menggunakan tipe data num
+  num number3 = 10;
+  print(number3);
+  num number4 = 10.9;
+  print(number4);
 }
