@@ -7,4 +7,11 @@ void main() {
   String namabelakang = "Raihan";
   print(namadepan);
   print(namabelakang);
+
+  // string interpolation
+  // String mendukung expression, dimana di dalam expression kita bisa mengambil data dari variable lain
+  // Untuk membuat expression, kita bisa menggunakan format ${isiExpression}, jika sederhana kita bisa langsung menggunakan $isiExpression
+
+  var namalengkap = '$namadepan $namabelakang';
+  print(namalengkap);
 }
