@@ -27,4 +27,13 @@ void main() {
   var nama2 = 'kharis ' 'Raihan ' '22031013';
   print(nama1);
   print(nama2);
+
+  // multiline string
+  // String mendukung pembuatan data secara multiline, caranya dengan menggunakan petik satu  atau  petik dua sebanyak tiga karakter
+  var stringpanjang = '''
+  string ini adalah string panjang
+  sehingga sulit ditulis
+  dalam satu baris
+  ''';
+  print(stringpanjang);
 }
