@@ -19,4 +19,12 @@ void main() {
   // Seperti contohnya sebelumnya karakter $ dianggap expression, jika kita memang mau membuat karakter $ dalam string, maka kita bisa gunakan \$, atau jika kita mau membuat karakter ‘ (petik satu), kita bisa gunakan \’
   var text = 'this is \'dart\' \$cool';
   print(text);
+
+  // menggabung string
+  // Untuk menggabungkan beberapa data String, kita bisa menggunakan karakter + (tambah)
+  // Atau jika datanya tidak dalam bentuk variable, kita bisa langsung tambahkan hanya dengan karakter whitespace (spasi, enter, tab)
+  var nama1 = namadepan + namabelakang;
+  var nama2 = 'kharis ' 'Raihan ' '22031013';
+  print(nama1);
+  print(nama2);
 }
