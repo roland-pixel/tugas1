@@ -26,4 +26,21 @@ void main() {
   names.add("22031013");
   print(names);
   print(names.length);
+
+  // indeks
+  // Selain menambahkan data di List, kita juga bisa mengubah data di List atau mendapatkan data di List
+  // Saat kita menambahkan data di List, secara otomatis data tersebut memiliki index (int), index ini digunakan untuk kita mengakses, mengubah atau menghapus data di List
+  // Index di List dimulai dari angka 0, dan akan terus bertambah seiring jumlah data yang kita masukkan
+  // Artinya jika kita memiliki jumlah data di List sebanyak length, index terakhir di List adalah length - 1
+
+  // manipulasi data di list
+  // Operator/method                    Keterangan
+  // list.add(value)                    menambah data ke list
+  // list[index]                        mengambil data di list
+  // list[index] = value                mengubah data di list
+  // list.removeAt(index)               menghapus data di list index secara otomatis akan bergeser
+  print(names[1]);
+  names[0] = 'agus';
+  names.removeAt(2);
+  print(names);
 }
