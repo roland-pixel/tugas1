@@ -43,4 +43,16 @@ void main() {
   names[0] = 'agus';
   names.removeAt(2);
   print(names);
+
+  // Deklarasi list secara langsung
+  // List juga mendukung deklarasi data secara langsung ketika pembuatan variable List
+  // Ini mempermudah kita ketika membuat list jika memang datanya sudah siap
+  // Caranya bisa gunakan perintah :
+  // var namaVariable = [value1, value2, value3]
+  // var namaVariable = <TipeData>[value1, value2, value3]
+  //var namaVariable = [
+  //	value1,
+  //	value2,
+  //	value3,
+  //  ]
 }
