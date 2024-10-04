@@ -12,7 +12,18 @@ void main() {
 
   // membuat list dengan tipe data int
   List<int> listint = [];
-
   // membuat list dari string
   var listString = <String>[];
+
+  // menambah data di list
+  // Data di dalam List, bisa kita tambah lebih dari satu, anggap aja List adalah sebuah tabel, dimana kita bisa menambah banyak baris di tabel nya
+  // Ukuran List akan secara otomatis bertambah ketika kita menambahkan data ke dalam list
+  // Untuk menambahkan data ke List, kita bisa gunakan method add(value)
+  // Dan untuk mengetahui berapa jumlah data yang ada di List, kita bisa gunakan property length
+  var names = <String>[];
+  names.add("Kharis");
+  names.add("Raihan");
+  names.add("22031013");
+  print(names);
+  print(names.length);
 }
