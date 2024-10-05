@@ -17,4 +17,11 @@ void main() {
   // for (;;) {
   //   print('perulangan tanpa henti');
   // }
+
+  // Perulangan Dengan Kondisi
+  var counter = 1;
+  for (; counter <= 10;) {
+    print('perulangan ke $counter');
+    counter++;
+  }
 }
