@@ -37,6 +37,14 @@ void main() {
   // Dart mendukung konversi secara paksa dari tipe data  nullable ke non nullable dengan menggunakan karakter ! (tanda seru) setelah nama variable nullable nya
   // Namun konsekuensinya, jika ternyata datanya  null, maka otomatis akan terjadi error ketika aplikasi berjalan, jadi gunakan secara bijak
 
-  int? nullablenumber1;
-  var number1 = nullablenumber1!;
+  // int? nullablenumber1;
+  // var number1 = nullablenumber1!;
+
+  // Mengakses Nullable Member
+  // Saat kita mengakses nullable member (property, method, operator), maka secara default Dart akan memberi  peringatan untuk melakukan null check
+  // Namun Kita bisa mengakses nullable member secara aman, tanpa harus memaksa melakukan konversi, caranya dengan menggunakan tanda tanya (?)
+  // Namun konsekuensinya, ketika mengakses nullable member, hasil dari member tersebut bisa jadi null kalo datanya ternyata null
+  int? intnumber;
+  double? doublenumber = intnumber?.toDouble();
+  print(doublenumber);
 }
