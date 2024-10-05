@@ -9,5 +9,11 @@ void main() {
   var absen = 90;
   if (nilai >= 75 && absen >= 75) {
     print('anda lulus');
+  } else {
+    print('anda tidak lulus');
   }
+
+  // Blok if akan dieksekusi ketika kondisi if bernilai true
+  // Kadang kita ingin melakukan eksekusi program tertentu jika kondisi if bernilai false
+  // Hal ini bisa dilakukan menggunakan else
 }
