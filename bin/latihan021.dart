@@ -32,4 +32,11 @@ void main() {
   // Untuk melakukan hal tersebut, kita tidak  perlu menggunakan if else, kita cukup  menggunakan operator ??  (tanda tanya dua kali)
   String? guest;
   var guestname = guest ?? 'Tamu';
+
+  // Konversi Secara Paksa
+  // Dart mendukung konversi secara paksa dari tipe data  nullable ke non nullable dengan menggunakan karakter ! (tanda seru) setelah nama variable nullable nya
+  // Namun konsekuensinya, jika ternyata datanya  null, maka otomatis akan terjadi error ketika aplikasi berjalan, jadi gunakan secara bijak
+
+  int? nullablenumber1;
+  var number1 = nullablenumber1!;
 }
