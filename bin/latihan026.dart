@@ -9,4 +9,9 @@ void main() {
   for (var i = 0; i <= array.length; i++) {
     print(array[i]);
   }
+
+  // kode Menggunakan For In
+  for (var value in array) {
+    print(value);
+  }
 }
