@@ -19,8 +19,14 @@ void main() {
   // }
 
   // Perulangan Dengan Kondisi
-  var counter = 1;
-  for (; counter <= 10;) {
+  // var counter = 1;
+  // for (; counter <= 10;) {
+  //   print('perulangan ke $counter');
+  //   counter++;
+  // }
+
+  // Perulangan Dengan Init Statement
+  for (var counter = 1; counter <= 10;) {
     print('perulangan ke $counter');
     counter++;
   }
