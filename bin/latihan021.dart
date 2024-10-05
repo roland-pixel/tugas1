@@ -26,4 +26,10 @@ void main() {
   if (nullablenumber != null) {
     int number = nullablenumber;
   }
+
+  // Default Value
+  // Kadang kita butuh melakukan konversi dari tipe data nullable ke non nullable, namun jika data nya ternyata null, kita ganti dengan default value
+  // Untuk melakukan hal tersebut, kita tidak  perlu menggunakan if else, kita cukup  menggunakan operator ??  (tanda tanya dua kali)
+  String? guest;
+  var guestname = guest ?? 'Tamu';
 }
