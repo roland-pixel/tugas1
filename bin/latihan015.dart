@@ -17,4 +17,22 @@ void main() {
   print(person);
   print(product);
   print(adress);
+
+  // manipulasi map
+  // operator/method/property                       keterangan
+  // map.length                                     mendapatkan panjang map
+  // map[key]                                       mendapatkan data di map
+  // map[key] = value                               mengubah data di map
+  // map.remove(key)                                menghapus data di map
+  var name = <String, String>{};
+  name['satu'] = 'kharis';
+  name['dua'] = 'Raihan';
+  name['tiga'] = '22031013';
+  print(name['tiga']);
+
+  name['dua'] = 'setiawan';
+  print(name['dua']);
+
+  name.remove('satu');
+  print(name);
 }
