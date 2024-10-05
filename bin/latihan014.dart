@@ -12,4 +12,18 @@ void main() {
   // contoh
   Set<int> numbers = {};
   var names = <String>{};
+
+  // manipulasi set
+  // operator/methode/property                  keterangan
+  // set.length                                 mendapantakn panjang set
+  // set.add(value)                             menambah data ke set
+  // set.remove(value)                          menghapus data dari set
+  // var names = <String>{};
+  names.add('Kharis');
+  names.add('Raihan');
+  names.add('22031013');
+
+  print(names);
+  names.remove('Raihan');
+  print(names);
 }
