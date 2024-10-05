@@ -12,4 +12,9 @@ void main() {
   // Kondisi akan dilakukan pengecekan dalam setiap perulangan, jika true perulangan akan dilakukan, jika false perulangan akan berhenti
   // Post statement akan dieksekusi setiap kali diakhir perulangan
   // Init statement, Kondisi dan Post Statement tidak wajib diisi, jika Kondisi tidak diisi, berarti kondisi selalu bernilai true
+
+  // Perulangan Tanpa Henti
+  // for (;;) {
+  //   print('perulangan tanpa henti');
+  // }
 }
