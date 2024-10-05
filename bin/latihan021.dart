@@ -16,4 +16,14 @@ void main() {
   if (age != null) {
     print(age.toDouble());
   }
+
+  // Konversi Nullable ke Non Nullable
+  // Untuk melakukan  konversi tipe data non nullable ke nullable, kita bisa langsung masukkan data nya  saja
+  // Namun untuk melakukan konversi tipe data nullable ke non nullable, kita wajib melakukan  null check terlebih dahulu
+  String name = 'eko';
+  String? nullablename = name;
+  int? nullablenumber;
+  if (nullablenumber != null) {
+    int number = nullablenumber;
+  }
 }
