@@ -30,4 +30,9 @@ void main() {
     print('perulangan ke $counter');
     counter++;
   }
+
+  // Perulangan Dengan Post Statement
+  for (var counter = 1; counter <= 11; counter++) {
+    print('perulangan ke $counter');
+  }
 }
