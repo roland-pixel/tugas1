@@ -2,6 +2,10 @@ void say_hello({String? namadepan, String? namabelakang}) {
   print('halo $namadepan $namabelakang');
 }
 
+void sayhello({String? namadepan, String? namabelakang = 'default'}) {
+  print('halo $namadepan $namabelakang');
+}
+
 void main() {
   // Named Parameter
   // Secara default, posisi parameter ketika kita memanggil function harus sesuai dengan posisi parameter di function tersebut
@@ -14,4 +18,15 @@ void main() {
   say_hello();
   say_hello(namadepan: 'kharis');
   say_hello(namabelakang: 'Raihan');
+
+  // Default Parameter Value
+  // Karena secara default, named parameter adalah nullable,  sehingga secara otomatis ketika memanggil function, kita tidak wajib mengirim parameter tersebut
+  // Agar nilai parameter tidak null, kita juga bisa memberikan default value dengan menambah = nilai default nya
+  print(
+      '-------------------------------------------------------------------------');
+  sayhello(namadepan: 'Kharis', namabelakang: 'Raihan');
+  sayhello(namabelakang: 'Nugraha', namadepan: 'Fuji');
+  sayhello();
+  sayhello(namadepan: 'kharis');
+  sayhello(namabelakang: 'Raihan');
 }
