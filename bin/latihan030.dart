@@ -6,6 +6,11 @@ void sayhello({String? namadepan, String? namabelakang = 'default'}) {
   print('halo $namadepan $namabelakang');
 }
 
+void kaatakanhello(
+    {required String? namadepan, String? namabelakang = 'default'}) {
+  print('halo $namadepan $namabelakang');
+}
+
 void main() {
   // Named Parameter
   // Secara default, posisi parameter ketika kita memanggil function harus sesuai dengan posisi parameter di function tersebut
@@ -29,4 +34,15 @@ void main() {
   sayhello();
   sayhello(namadepan: 'kharis');
   sayhello(namabelakang: 'Raihan');
+
+  // Required Parameter
+  // Pada named parameter, kita juga bisa memaksa sebuah parameter menjadi mandatory, sehingga kita memanggil function tersebut, parameter nya wajib ditambahkan
+  // Caranya kita bisa tambahkan kata kunci required di awal parameter
+  print(
+      '-------------------------------------------------------------------------');
+  kaatakanhello(namadepan: 'Kharis', namabelakang: 'Raihan');
+  kaatakanhello(namabelakang: 'Nugraha', namadepan: 'Fuji');
+  kaatakanhello(namadepan: 'kharis');
+  kaatakanhello(namadepan: 'Raihan');
+  kaatakanhello(namadepan: 'budi', namabelakang: 'eko');
 }
