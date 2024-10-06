@@ -7,6 +7,15 @@ int factorialloop(int value) {
   return result;
 }
 
+// Kode : Factorial Recursive
+int factorialRecursive(int value) {
+  if (value == 1) {
+    return 1;
+  } else {
+    return value * factorialRecursive(value - 1);
+  }
+}
+
 void main() {
   // Recursive Function
   // Recursive function adalah function yang memanggil function dirinya sendiri
